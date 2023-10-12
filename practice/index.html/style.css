@@ -1,0 +1,94 @@
+body {
+  background-color: #edefee;
+  font-family: "Roboto", sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer div {
+  margin: 10px; /* Add spacing between the divs */
+}
+
+footer div img {
+  display: block;
+  margin: 0 auto;
+  width: 15rem;
+}
+
+header {
+  text-align: center;
+  padding: 3%;
+  background-color: #b7b931;
+}
+
+header > img {
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  width: 25rem;
+}
+
+nav {
+  background: rgb(
+    133,
+    136,
+    52
+  ); /* Create a goldish-silver gradient background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a box shadow for a subtle shadow effect */
+  text-align: center; /* Center-align the contents of the nav */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px; /* Add spacing between the list items */
+}
+
+nav a {
+  text-decoration: none; /* Remove underlines from links */
+  color: rgb(0, 0, 0); /* Set the text color to white */
+  font-weight: bold; /* Make the text bold */
+}
+
+nav a:hover {
+  color: rgb(209, 208, 193); /* Change text color on hover */
+  text-decoration: underline;
+}
