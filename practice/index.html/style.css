@@ -113,31 +113,38 @@ nav a:hover {
 }
 
 #horizontal-rows {
-  background-color: #3498db; /* Set the background color to your desired color */
-  border-radius: 10px; /* Add rounded corners */
+  background-color: none;
   padding: 20px; /* Add padding for space */
+  margin: 5px; /* Add margin to separate sections */
+}
+
+#horizontal-rows {
+  padding: 20px; /* Add padding to the section */
   margin: 10px; /* Add margin to separate sections */
 }
 
-#horizontal-rows .arti_1,
-#horizontal-rows .arti_2,
-#horizontal-rows .arti_3 {
+article {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: url("your-image.jpg") center/cover no-repeat; /* Set the background image */
   border: 2px solid #b7b931; /* Add a 2px solid border with the desired color */
   border-radius: 10px; /* Add rounded corners */
   padding: 20px; /* Add padding for space */
-  margin: 10px; /* Add margin to separate articles */
+  margin: 20px; /* Add margin to separate articles and increase the space between them */
   color: white; /* Set text color to white */
 }
 
-#horizontal-rows h2 {
+h2 {
   font-size: 2rem; /* Example styling for the h2 text */
 }
 
-#horizontal-rows img {
+.image-box {
+  background-color: #3498db; /* Set the background color for the image box */
+  margin: 20px 0; /* Add margin to separate the image box from other elements */
+  padding: 10px; /* Add padding for space inside the image box */
+}
+
+.image-box img {
   display: block;
   margin: 0 auto;
   max-width: 100%; /* Make sure the image doesn't exceed the container width */
