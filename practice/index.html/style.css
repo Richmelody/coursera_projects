@@ -1,5 +1,5 @@
 body {
-  background-color: #edefee;
+  background-color: #e1ddc5;
   font-family: "Roboto", sans-serif;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -26,6 +26,10 @@ nav li {
 
 section {
   display: flex;
+  border: 1px solid #ddd; /* Add a border to all sections */
+  border-radius: 10px; /* Set border radius for rounded corners */
+  margin: 0px; /* Add some margin to separate sections */
+  padding: 20px; /* Add padding to create space inside sections */
 }
 
 article {
@@ -53,6 +57,7 @@ header {
   text-align: center;
   padding: 3%;
   background-color: #b7b931;
+  border-radius: 10px;
 }
 
 header > img {
@@ -91,4 +96,50 @@ nav a {
 nav a:hover {
   color: rgb(209, 208, 193); /* Change text color on hover */
   text-decoration: underline;
+}
+
+/* Add a class for the section with a background image */
+.image-section {
+  background: url("logos/alex-azabache-y2ErhoE92KA-unsplash.jpg") center/cover
+    no-repeat;
+  padding: 2rem; /* Add some padding to the section */
+}
+
+/* Style the text within the section */
+.image-section h1,
+.image-section p {
+  color: rgb(237, 222, 222); /* Set text color to white */
+  text-align: left; /* Align text to the left */
+}
+
+#horizontal-rows {
+  background-color: #3498db; /* Set the background color to your desired color */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 20px; /* Add padding for space */
+  margin: 10px; /* Add margin to separate sections */
+}
+
+#horizontal-rows .arti_1,
+#horizontal-rows .arti_2,
+#horizontal-rows .arti_3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: url("your-image.jpg") center/cover no-repeat; /* Set the background image */
+  border: 2px solid #b7b931; /* Add a 2px solid border with the desired color */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 20px; /* Add padding for space */
+  margin: 10px; /* Add margin to separate articles */
+  color: white; /* Set text color to white */
+}
+
+#horizontal-rows h2 {
+  font-size: 2rem; /* Example styling for the h2 text */
+}
+
+#horizontal-rows img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Make sure the image doesn't exceed the container width */
+  height: auto; /* Maintain the image's aspect ratio */
 }
